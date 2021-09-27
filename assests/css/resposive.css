@@ -1,0 +1,82 @@
+/* Reposive */
+/* Mobile width max 740px */
+@media only screen and (max-width: 46.188em){
+    .s-full-width{
+        width: 100%;
+    }
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav {
+        display: block;
+    }
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+    #header .menu-btn{
+        display: block;
+        float: right;
+        padding: 15px 23px;
+        background-color: #000;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header .menu-btn:hover{
+        background-color: #ccc;
+        color: #000;
+    }
+    #header .mobile-btn{
+        display: block;
+    }
+    #header .more-btn{
+        display: none;
+    }
+    #silder{
+        min-height: 0;
+    }
+    #silder .text-box{
+        display: none;
+    }
+    #content .about{
+        line-height: 1.25;
+    }
+    #content .slogan-content{
+        margin-bottom: 15px;
+    }
+    #content .team-name-image{
+        width: 100%;
+        margin-bottom: 31px;
+    }
+    .row-third{
+        width: 100%;
+        margin-bottom: 16px;
+
+    }
+    .container-ticket{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .col-half{
+        width: 100%;
+    }
+    .contact-infor{
+        margin-bottom: 16px;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+}
+@media only screen and (min-width: 46.250em) and (max-width: 63.938em){
+    #header .more-btn{
+        display: none;
+    }
+}
